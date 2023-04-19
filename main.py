@@ -8,6 +8,7 @@ def timer(func):
         result = finish - start
         return result
     return inner
+#комментарий
 
 @timer
 def hard_func():
