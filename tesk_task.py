@@ -1,6 +1,9 @@
 import datetime
 
 class Book:
+    title = None
+    author = None
+    year = None
 
     def __init__(self, title: str, author: str, year: int):
         self.title = title
